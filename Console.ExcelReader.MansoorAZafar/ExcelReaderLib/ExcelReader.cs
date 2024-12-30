@@ -31,7 +31,4 @@ public static class ExcelReader
 
         return employees;
     }
-
-    //public static Employee ConvertWorksheetToEmployee(ExcelWorksheet worksheet)
-    //    => new Employee(worksheet.Row(0), worksheet.Row(1), worksheet.Row(2), worksheet.Row(3));
 }
