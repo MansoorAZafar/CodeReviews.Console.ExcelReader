@@ -14,3 +14,9 @@ cd Console.ExcelReader.MansoorAZafar/
 ```bash
 dotnet run --project .\ExcelReaderApp\ExcelReaderApp.csproj 
 ```
+
+5. If you want to change the excel file, it's excel_worker_info.xlsx in **Console.ExcelReader.MansoorAZafar/ExcelReaderApp/excel_worker_info.xlsx**
+
+- heres what the file looks like
+
+![{1DA4B6EA-1C03-4677-AFF7-C3FEA7AF1395}](https://github.com/user-attachments/assets/e0a5e39a-3911-4a40-82fc-4c3d7c02378f)
