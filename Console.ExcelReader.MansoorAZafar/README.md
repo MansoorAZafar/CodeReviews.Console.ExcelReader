@@ -1,22 +1,44 @@
 # Setup
-1. Clone the repository
 
-2. Go to the directory 
+1. Clone the Repository
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/MansoorAZafar/CodeReviews.Console.ExcelReader.git
+```
+
+2. Navigate to the Directory
+Change to the project directory:
 
 ```bash
 cd Console.ExcelReader.MansoorAZafar/
 ```
 
-3. Change the Database Connection String (if you'd like) in appsettings.json at **Console.ExcelReader.MansoorAZafar/ExcelReaderApp/appsettings.json**
+3. Update the Database Connection String
+- **(Optional)**
+  - If needed, update the database connection string in appsettings.json. The file is located at:
 
-4. Run the application from Console.ExcelReader.MansoorAZafar/
+    ```arduino
+      Console.ExcelReader.MansoorAZafar/ExcelReaderApp/appsettings.json
+    ```
+
+4. Run the Application
+Run the application from the project directory:
 
 ```bash
-dotnet run --project .\ExcelReaderApp\ExcelReaderApp.csproj 
+dotnet run --project .\ExcelReaderApp\ExcelReaderApp.csproj
 ```
 
-5. If you want to change the excel file, it's excel_worker_info.xlsx in **Console.ExcelReader.MansoorAZafar/ExcelReaderApp/excel_worker_info.xlsx**
+5. Modify the Excel File **(Optional)**
+- If you'd like to use a different Excel file, replace the existing one at:
 
-- heres what the file looks like
+  ```arduino
+  Console.ExcelReader.MansoorAZafar/ExcelReaderApp/excel_worker_info.xlsx
+  ```
+
+- Example Excel File
+  -  Here’s what the default Excel file (excel_worker_info.xlsx) looks like:
+
+
 
 ![{1DA4B6EA-1C03-4677-AFF7-C3FEA7AF1395}](https://github.com/user-attachments/assets/e0a5e39a-3911-4a40-82fc-4c3d7c02378f)
